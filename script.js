@@ -60,4 +60,34 @@ function limparForm() {
     input.value = '';
    })
 }
+
+
+function cadastraCEP(enderecoCompleto){
+
+    fetch('http://localhost:3000/endereco',{
+        method: 'POST',
+        headers: {
+            'Content-Type': "application/json"
+        },
+        "body": JSON.stringify(enderecoCompleto)
+    }).then(resposta => {
+
+        // VERDADEIRO OU FALSO
+        // if(resposta.ok) window.alert('Endereço cadastrado')
+        //     else window.alert('Erro: ' + resposta.status)
+
+        //ternario
+         resposta.ok ? window.alert('Endereço cadastrado') :
+         window.alert('Erro: ' + resposta.status)
+    })
+}
+
+function atualizarCEP(atualizarEndereco){
+
+    const atualizarEndereco = enderecoCompleto
+    fetch('http://localhost:3000/endereco',{
+        method: 'PACH',
+        headers: { 'content-type': "application/json"}
+    })
+}
  

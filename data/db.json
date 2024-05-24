@@ -47,6 +47,30 @@
       "bairro": "Ipiranga",
       "cidade": "São Paulo",
       "uf": "SP"
+    },
+    {
+      "id": "7046",
+      "cep": "04476170",
+      "logradouro": "rua miriam licette",
+      "bairro": "eldorado",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    {
+      "id": "ae38",
+      "cep": "04476170",
+      "logradouro": "rua miriam licette",
+      "bairro": "eldorado",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    {
+      "id": "aa6b",
+      "cep": "08730500",
+      "logradouro": "RUA DR. OSMAR MARINHO COUTO",
+      "bairro": "ALTO DO IPIRANGA",
+      "cidade": "São Paulo",
+      "uf": "SP"
     }
   ]
 }
